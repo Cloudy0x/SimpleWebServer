@@ -14,7 +14,7 @@ while True:
     client_sock , client_addr = server.accept()
     print("[client] connection from : " , client_addr)
 
-    # echo program
+
     client_sock.send("""HTTP/1.1 200 OK
 Content-Type: text/html
 
