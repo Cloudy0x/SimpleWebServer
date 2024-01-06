@@ -18,7 +18,7 @@ while True:
     client_sock.send("""HTTP/1.1 200 OK
 Content-Type: text/html
 
-<html><body>Hello World :)</body></html>
+<html><body> Hello World :) </body></html>
 """.encode());
 
 
